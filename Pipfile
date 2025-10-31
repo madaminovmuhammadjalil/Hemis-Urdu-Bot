@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiogram = "*"
+environs = "~=8.0.0"
+requests = "*"
+pipenv = "*"
+executor = "*"
+pygments = "*"
+sqlparse = "*"
+matplotlib = "*"
+opencv-python = "*"
+numpy = "*"
+xlsxwriter = "*"
+pywin32 = "*"
+openpyxl = "*"
+xlrd = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
